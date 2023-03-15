@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8732BA2229C260EE003DC774 /* GPTalkieApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8732BA2129C260EE003DC774 /* GPTalkieApp.swift */; };
+		8732BA2429C260EE003DC774 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8732BA2329C260EE003DC774 /* ContentView.swift */; };
+		8732BA2629C260F0003DC774 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8732BA2529C260F0003DC774 /* Assets.xcassets */; };
+		8732BA2929C260F0003DC774 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8732BA2829C260F0003DC774 /* Preview Assets.xcassets */; };
+		8732BA3429C260F0003DC774 /* GPTalkieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8732BA3329C260F0003DC774 /* GPTalkieTests.swift */; };
+		8732BA3E29C260F0003DC774 /* GPTalkieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8732BA3D29C260F0003DC774 /* GPTalkieUITests.swift */; };
+		8732BA4029C260F0003DC774 /* GPTalkieUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8732BA3F29C260F0003DC774 /* GPTalkieUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8732BA3029C260F0003DC774 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8732BA1629C260EE003DC774 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8732BA1D29C260EE003DC774;
+			remoteInfo = GPTalkie;
+		};
+		8732BA3A29C260F0003DC774 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8732BA1629C260EE003DC774 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8732BA1D29C260EE003DC774;
+			remoteInfo = GPTalkie;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8732BA1E29C260EE003DC774 /* GPTalkie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GPTalkie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8732BA2129C260EE003DC774 /* GPTalkieApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPTalkieApp.swift; sourceTree = "<group>"; };
+		8732BA2329C260EE003DC774 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8732BA2529C260F0003DC774 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8732BA2829C260F0003DC774 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8732BA2A29C260F0003DC774 /* GPTalkie.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GPTalkie.entitlements; sourceTree = "<group>"; };
+		8732BA2F29C260F0003DC774 /* GPTalkieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GPTalkieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8732BA3329C260F0003DC774 /* GPTalkieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPTalkieTests.swift; sourceTree = "<group>"; };
+		8732BA3929C260F0003DC774 /* GPTalkieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GPTalkieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8732BA3D29C260F0003DC774 /* GPTalkieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPTalkieUITests.swift; sourceTree = "<group>"; };
+		8732BA3F29C260F0003DC774 /* GPTalkieUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPTalkieUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8732BA1B29C260EE003DC774 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8732BA2C29C260F0003DC774 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8732BA3629C260F0003DC774 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8732BA1529C260EE003DC774 = {
+			isa = PBXGroup;
+			children = (
+				8732BA2029C260EE003DC774 /* GPTalkie */,
+				8732BA3229C260F0003DC774 /* GPTalkieTests */,
+				8732BA3C29C260F0003DC774 /* GPTalkieUITests */,
+				8732BA1F29C260EE003DC774 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8732BA1F29C260EE003DC774 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8732BA1E29C260EE003DC774 /* GPTalkie.app */,
+				8732BA2F29C260F0003DC774 /* GPTalkieTests.xctest */,
+				8732BA3929C260F0003DC774 /* GPTalkieUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8732BA2029C260EE003DC774 /* GPTalkie */ = {
+			isa = PBXGroup;
+			children = (
+				8732BA2129C260EE003DC774 /* GPTalkieApp.swift */,
+				8732BA2329C260EE003DC774 /* ContentView.swift */,
+				8732BA2529C260F0003DC774 /* Assets.xcassets */,
+				8732BA2A29C260F0003DC774 /* GPTalkie.entitlements */,
+				8732BA2729C260F0003DC774 /* Preview Content */,
+			);
+			path = GPTalkie;
+			sourceTree = "<group>";
+		};
+		8732BA2729C260F0003DC774 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8732BA2829C260F0003DC774 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8732BA3229C260F0003DC774 /* GPTalkieTests */ = {
+			isa = PBXGroup;
+			children = (
+				8732BA3329C260F0003DC774 /* GPTalkieTests.swift */,
+			);
+			path = GPTalkieTests;
+			sourceTree = "<group>";
+		};
+		8732BA3C29C260F0003DC774 /* GPTalkieUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8732BA3D29C260F0003DC774 /* GPTalkieUITests.swift */,
+				8732BA3F29C260F0003DC774 /* GPTalkieUITestsLaunchTests.swift */,
+			);
+			path = GPTalkieUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8732BA1D29C260EE003DC774 /* GPTalkie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8732BA4329C260F0003DC774 /* Build configuration list for PBXNativeTarget "GPTalkie" */;
+			buildPhases = (
+				8732BA1A29C260EE003DC774 /* Sources */,
+				8732BA1B29C260EE003DC774 /* Frameworks */,
+				8732BA1C29C260EE003DC774 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GPTalkie;
+			productName = GPTalkie;
+			productReference = 8732BA1E29C260EE003DC774 /* GPTalkie.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8732BA2E29C260F0003DC774 /* GPTalkieTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8732BA4629C260F0003DC774 /* Build configuration list for PBXNativeTarget "GPTalkieTests" */;
+			buildPhases = (
+				8732BA2B29C260F0003DC774 /* Sources */,
+				8732BA2C29C260F0003DC774 /* Frameworks */,
+				8732BA2D29C260F0003DC774 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8732BA3129C260F0003DC774 /* PBXTargetDependency */,
+			);
+			name = GPTalkieTests;
+			productName = GPTalkieTests;
+			productReference = 8732BA2F29C260F0003DC774 /* GPTalkieTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8732BA3829C260F0003DC774 /* GPTalkieUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8732BA4929C260F0003DC774 /* Build configuration list for PBXNativeTarget "GPTalkieUITests" */;
+			buildPhases = (
+				8732BA3529C260F0003DC774 /* Sources */,
+				8732BA3629C260F0003DC774 /* Frameworks */,
+				8732BA3729C260F0003DC774 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8732BA3B29C260F0003DC774 /* PBXTargetDependency */,
+			);
+			name = GPTalkieUITests;
+			productName = GPTalkieUITests;
+			productReference = 8732BA3929C260F0003DC774 /* GPTalkieUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8732BA1629C260EE003DC774 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					8732BA1D29C260EE003DC774 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					8732BA2E29C260F0003DC774 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 8732BA1D29C260EE003DC774;
+					};
+					8732BA3829C260F0003DC774 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 8732BA1D29C260EE003DC774;
+					};
+				};
+			};
+			buildConfigurationList = 8732BA1929C260EE003DC774 /* Build configuration list for PBXProject "GPTalkie" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8732BA1529C260EE003DC774;
+			productRefGroup = 8732BA1F29C260EE003DC774 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8732BA1D29C260EE003DC774 /* GPTalkie */,
+				8732BA2E29C260F0003DC774 /* GPTalkieTests */,
+				8732BA3829C260F0003DC774 /* GPTalkieUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8732BA1C29C260EE003DC774 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8732BA2929C260F0003DC774 /* Preview Assets.xcassets in Resources */,
+				8732BA2629C260F0003DC774 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8732BA2D29C260F0003DC774 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8732BA3729C260F0003DC774 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8732BA1A29C260EE003DC774 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8732BA2429C260EE003DC774 /* ContentView.swift in Sources */,
+				8732BA2229C260EE003DC774 /* GPTalkieApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8732BA2B29C260F0003DC774 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8732BA3429C260F0003DC774 /* GPTalkieTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8732BA3529C260F0003DC774 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8732BA4029C260F0003DC774 /* GPTalkieUITestsLaunchTests.swift in Sources */,
+				8732BA3E29C260F0003DC774 /* GPTalkieUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8732BA3129C260F0003DC774 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8732BA1D29C260EE003DC774 /* GPTalkie */;
+			targetProxy = 8732BA3029C260F0003DC774 /* PBXContainerItemProxy */;
+		};
+		8732BA3B29C260F0003DC774 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8732BA1D29C260EE003DC774 /* GPTalkie */;
+			targetProxy = 8732BA3A29C260F0003DC774 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8732BA4129C260F0003DC774 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8732BA4229C260F0003DC774 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		8732BA4429C260F0003DC774 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GPTalkie/GPTalkie.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GPTalkie/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = enlited.GPTalkie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8732BA4529C260F0003DC774 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = GPTalkie/GPTalkie.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GPTalkie/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = enlited.GPTalkie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		8732BA4729C260F0003DC774 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = enlited.GPTalkieTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GPTalkie.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GPTalkie";
+			};
+			name = Debug;
+		};
+		8732BA4829C260F0003DC774 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = enlited.GPTalkieTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GPTalkie.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GPTalkie";
+			};
+			name = Release;
+		};
+		8732BA4A29C260F0003DC774 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = enlited.GPTalkieUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = GPTalkie;
+			};
+			name = Debug;
+		};
+		8732BA4B29C260F0003DC774 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = enlited.GPTalkieUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = GPTalkie;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8732BA1929C260EE003DC774 /* Build configuration list for PBXProject "GPTalkie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8732BA4129C260F0003DC774 /* Debug */,
+				8732BA4229C260F0003DC774 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8732BA4329C260F0003DC774 /* Build configuration list for PBXNativeTarget "GPTalkie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8732BA4429C260F0003DC774 /* Debug */,
+				8732BA4529C260F0003DC774 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8732BA4629C260F0003DC774 /* Build configuration list for PBXNativeTarget "GPTalkieTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8732BA4729C260F0003DC774 /* Debug */,
+				8732BA4829C260F0003DC774 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8732BA4929C260F0003DC774 /* Build configuration list for PBXNativeTarget "GPTalkieUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8732BA4A29C260F0003DC774 /* Debug */,
+				8732BA4B29C260F0003DC774 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8732BA1629C260EE003DC774 /* Project object */;
+}

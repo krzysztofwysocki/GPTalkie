@@ -34,9 +34,17 @@ struct OpenAIResponse: Codable {
 
 class ChatAPI {
     static let shared = ChatAPI()
-    private let apiKey = "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"
+    private let apiKey: String
+    
+    public init() {
+            guard let filePath = Bundle.main.path(forResource: "Configs", ofType: "plist"),
+                  let plist = NSDictionary(contentsOfFile: filePath),
+                  let apiKey = plist["API_KEY"] as? String else {
+                fatalError("Couldn't load API key from Configs.plist")
+            }
 
-    public init() {}
+            self.apiKey = apiKey
+    }
 
     func getGPTResponse(prompt: String, completion: @escaping (Result<OpenAIResponse, Error>) -> Void) {
         guard let url = URL(string: "https://api.openai.com/v1/chat/completions") else {

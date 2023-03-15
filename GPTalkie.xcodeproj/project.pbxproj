@@ -16,6 +16,7 @@
 		8732BA4029C260F0003DC774 /* GPTalkieUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8732BA3F29C260F0003DC774 /* GPTalkieUITestsLaunchTests.swift */; };
 		8732BA4D29C266FD003DC774 /* StatusItemManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8732BA4C29C266FD003DC774 /* StatusItemManager.swift */; };
 		8732BA4F29C26E79003DC774 /* ChatAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8732BA4E29C26E79003DC774 /* ChatAPI.swift */; };
+		8732BA5129C280D7003DC774 /* Configs.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8732BA5029C280D7003DC774 /* Configs.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		8732BA3F29C260F0003DC774 /* GPTalkieUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPTalkieUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		8732BA4C29C266FD003DC774 /* StatusItemManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusItemManager.swift; sourceTree = "<group>"; };
 		8732BA4E29C26E79003DC774 /* ChatAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatAPI.swift; sourceTree = "<group>"; };
+		8732BA5029C280D7003DC774 /* Configs.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Configs.plist; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				8732BA2729C260F0003DC774 /* Preview Content */,
 				8732BA4C29C266FD003DC774 /* StatusItemManager.swift */,
 				8732BA4E29C26E79003DC774 /* ChatAPI.swift */,
+				8732BA5029C280D7003DC774 /* Configs.plist */,
 			);
 			path = GPTalkie;
 			sourceTree = "<group>";
@@ -241,6 +244,7 @@
 			files = (
 				8732BA2929C260F0003DC774 /* Preview Assets.xcassets in Resources */,
 				8732BA2629C260F0003DC774 /* Assets.xcassets in Resources */,
+				8732BA5129C280D7003DC774 /* Configs.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +432,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"GPTalkie/Preview Content\"";
+				DEVELOPMENT_TEAM = ZB44SVWBS6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -453,6 +458,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"GPTalkie/Preview Content\"";
+				DEVELOPMENT_TEAM = ZB44SVWBS6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";

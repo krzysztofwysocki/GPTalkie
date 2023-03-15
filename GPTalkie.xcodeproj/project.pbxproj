@@ -14,6 +14,8 @@
 		8732BA3429C260F0003DC774 /* GPTalkieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8732BA3329C260F0003DC774 /* GPTalkieTests.swift */; };
 		8732BA3E29C260F0003DC774 /* GPTalkieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8732BA3D29C260F0003DC774 /* GPTalkieUITests.swift */; };
 		8732BA4029C260F0003DC774 /* GPTalkieUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8732BA3F29C260F0003DC774 /* GPTalkieUITestsLaunchTests.swift */; };
+		8732BA4D29C266FD003DC774 /* StatusItemManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8732BA4C29C266FD003DC774 /* StatusItemManager.swift */; };
+		8732BA4F29C26E79003DC774 /* ChatAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8732BA4E29C26E79003DC774 /* ChatAPI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		8732BA3929C260F0003DC774 /* GPTalkieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GPTalkieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8732BA3D29C260F0003DC774 /* GPTalkieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPTalkieUITests.swift; sourceTree = "<group>"; };
 		8732BA3F29C260F0003DC774 /* GPTalkieUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPTalkieUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8732BA4C29C266FD003DC774 /* StatusItemManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusItemManager.swift; sourceTree = "<group>"; };
+		8732BA4E29C26E79003DC774 /* ChatAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatAPI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				8732BA2529C260F0003DC774 /* Assets.xcassets */,
 				8732BA2A29C260F0003DC774 /* GPTalkie.entitlements */,
 				8732BA2729C260F0003DC774 /* Preview Content */,
+				8732BA4C29C266FD003DC774 /* StatusItemManager.swift */,
+				8732BA4E29C26E79003DC774 /* ChatAPI.swift */,
 			);
 			path = GPTalkie;
 			sourceTree = "<group>";
@@ -259,7 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8732BA4D29C266FD003DC774 /* StatusItemManager.swift in Sources */,
 				8732BA2429C260EE003DC774 /* ContentView.swift in Sources */,
+				8732BA4F29C26E79003DC774 /* ChatAPI.swift in Sources */,
 				8732BA2229C260EE003DC774 /* GPTalkieApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

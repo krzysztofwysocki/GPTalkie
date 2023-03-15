@@ -1,17 +1,13 @@
-//
-//  GPTalkieApp.swift
-//  GPTalkie
-//
-//  Created by kwysocki on 15/03/2023.
-//
-
 import SwiftUI
 
 @main
 struct GPTalkieApp: App {
+    @StateObject private var statusItemManager = StatusItemManager()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(statusItemManager)
         }
     }
 }

@@ -1,21 +1,37 @@
-//
-//  ContentView.swift
-//  GPTalkie
-//
-//  Created by kwysocki on 15/03/2023.
-//
-
 import SwiftUI
 
 struct ContentView: View {
+    @State private var prompt: String = ""
+    @State private var response: String = ""
+    let chatAPI = ChatAPI.shared
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            HStack {
+                TextField("Enter prompt", text: $prompt)
+                Button("Send") {
+                    sendPrompt(prompt: prompt)
+                }
+            }
+            Text(response)
         }
+        .frame(width: 200, height: 100)
         .padding()
+    }
+    
+    func sendPrompt(prompt: String) {
+        chatAPI.getGPTResponse(prompt: prompt) { result in
+            switch result {
+            case .success(let openAIResponse):
+                if let choice = openAIResponse.choices.first {
+                    DispatchQueue.main.async {
+                        self.response = choice.message.content
+                    }
+                }
+            case .failure(let error):
+                print("Error: \(error)")
+            }
+        }
     }
 }
 
